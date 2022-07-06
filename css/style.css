@@ -19,7 +19,7 @@
     text-align: center;
     color: #fff;
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 20%;
     right: 20%;
     bottom: 30%;
@@ -27,13 +27,13 @@
 
 .header-container h1 {
     font-size: 70px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .header-container p {
     font-size: 18px;
-    color: rgb(245, 240, 240);
-    margin-bottom: 20px;
+    color: #f5f5f5;
+    margin-bottom: 25px;
 }
 
 .donate-button {
@@ -41,6 +41,9 @@
     padding: 12px;
     border-radius: 5px;
     display: inline-block;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
 
 }
 
@@ -48,3 +51,61 @@
     text-decoration: none;
     color: #fff;
 }
+
+/* end header section */
+
+
+.form-container {
+    padding: 100px 0;
+    text-align: center;
+    color: #000;
+    top: 30%;
+    left: 20%;
+    right: 20%;
+    bottom: 30%;
+}
+
+.form-container h2 {
+    font-size: 48px;
+    padding-bottom: 25px;
+}
+
+.form-container .all-amount {
+    padding-top: 30px;
+    display: flex;
+    margin-left: 30%;
+}
+
+.form-container .amount {
+    margin-right: 15px;
+    padding: 30px 20px;
+    color: #707070;
+    background: #efeded;
+    font-weight: 900;
+    font-size: 28px;
+    border-radius: 5px;
+}
+
+.form-container .all-amount .active-amount {
+    border: 2px solid #FF5959;
+    color: #FF5959;
+    margin-right: 15px;
+    padding: 30px 20px;
+    background: #FFEEEE;
+    font-size: 28px;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+.form-container .other-amount {
+    margin-top: 30px;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid rgb(59, 58, 58);
+    display: block;
+    margin-left: 37%;
+    padding: 5px 120px;
+    text-align: center;
+}
+
+/* End donate now */
